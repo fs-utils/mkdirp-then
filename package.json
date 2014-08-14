@@ -1,7 +1,7 @@
 {
   "name": "mkdirp-then",
   "description": "mkdirp as promised",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -32,5 +32,7 @@
     "fs",
     "promise"
   ],
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
