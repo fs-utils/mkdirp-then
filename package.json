@@ -11,8 +11,8 @@
   "license": "MIT",
   "repository": "fs-utils/mkdirp-then",
   "dependencies": {
-    "mkdirp": "^0.5.0",
-    "native-or-bluebird": "^1.0.0"
+    "any-promise": "^1.1.0",
+    "mkdirp": "^0.5.0"
   },
   "devDependencies": {
     "bluebird": "^3.0.0",

@@ -1,6 +1,6 @@
 
 var _mkdirp = require('mkdirp')
-var Promise = require('native-or-bluebird')
+var Promise = require('any-promise')
 
 module.exports = function (dir, mode) {
   return new Promise(function (resolve, reject) {
