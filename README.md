@@ -7,7 +7,14 @@
 [![Dependency Status][david-image]][david-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
-[![Gittip][gittip-image]][gittip-url]
+
+```js
+const mkdirp = require('mkdirp-then')
+
+mkdirp('/tmp/some/path').then(() => {
+
+})
+```
 
 [npm-image]: https://img.shields.io/npm/v/mkdirp-then.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/mkdirp-then
@@ -23,5 +30,3 @@
 [license-url]: LICENSE.md
 [downloads-image]: http://img.shields.io/npm/dm/mkdirp-then.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/mkdirp-then
-[gittip-image]: https://img.shields.io/gittip/jonathanong.svg?style=flat-square
-[gittip-url]: https://www.gittip.com/jonathanong/
